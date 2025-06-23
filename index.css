@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-image: url(usedimages/32581554_s.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
