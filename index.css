@@ -65,7 +65,7 @@ li {
   margin: 0px 0px 5px 0px;
   padding: 5px 5px 5px 5px;
   border-right: solid 2px #cccccc;
-  background-color: #eeeeee;
+  background-color: rgb(255 255 255 / 0.8);
 }
 
 .sidebar a {
