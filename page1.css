@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: hsla(94, 100%, 87%, 0.49);
 }
 
 h1 {
@@ -69,7 +70,7 @@ li {
 }
 
 .greenback {
-  background-color: rgb(152 251 152);      
+  background-color: rgba(157, 255, 157, 0.345);      
   border: solid 3px #008000; 
   margin: 10px 10px 20px 10px;  
   padding: 15px;                  
