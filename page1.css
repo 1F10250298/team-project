@@ -71,7 +71,7 @@ li {
 
 .greenback {
   background-color: rgba(157, 255, 157, 0.345);      
-  border: solid 3px #008000; 
+  border-left: solid 3px #008000; 
   margin: 10px 10px 20px 10px;  
   padding: 15px;                  
 }
@@ -88,7 +88,12 @@ li {
   color: #444444;
 }
 
-
+div.important {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: solid 2px #ffffff;
+  background-color: #ffffff;
+}
 
 .footer {
   border-top: solid 1px #cccccc;
