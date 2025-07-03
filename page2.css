@@ -52,25 +52,42 @@ li {
 
 .sidebar {
   width: 30%;
-  margin: 10px 0 10px 0;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  padding-right: 20px;
+  padding-left: 10px;
+  
 }
 
 .sidebar ul {
-  margin: 0px;
-  padding: 0 10px 0 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar li {
-  display: block;
-  margin: 0px 0px 5px 0px;
-  padding: 5px 5px 5px 5px;
-  border-right: solid 2px #cccccc;
-  background-color: #eeeeee;
+  margin-bottom: 6px;
 }
 
 .sidebar a {
-  color: #444444;
+  display: block;
+  padding: 12px 18px;
+  border-radius: 6px;
+  background-color: #F0FDF4;
+  
+  border: 1px solid #16A34A; /* まず全体に薄い枠線を設定 */
+  border-left: solid 5px #16A34A; /* その後、左側だけ太い線で上書き */
+
+  color: #1F2937;
+  font-weight: bold;
   text-decoration: none;
+  transition: background-color 0.2s ease, border-left-color 0.2s ease;
+}
+
+.sidebar a:hover {
+  background-color: #DBEAFE;
+  border-left-color: #F59E0B;
 }
 
 .blueback {
