@@ -6,10 +6,10 @@
   --sub-color: #F0FDF4;       /* サブカラー（薄い緑） */
   --accent-color: #F59E0B;    /* アクセントカラー（黄色/アンバー） */
   --text-color: #1F2937;      /* テキストカラー（黒に近いグレー） */
-  --bg-color:   #FFFBEB;
+  --bg-color:   #FFFBEB;     /* いい感じのベージュ */
   --light-gray: #F3F4F6;     /* 薄いグレー */
   --dark-gray: #4B5563;       /* 暗いグレー */
-  --content-bg: #FFFFFF; 
+  --content-bg: #FFFFFF;      /* ホワイト */
 }
 /* ================================== */
 /* 基本スタイルとリセット */
@@ -18,13 +18,20 @@
   box-sizing: border-box; /* paddingとborderを幅と高さに含める */
 }
 
+
+
 body {
   margin: 0;
   background-color: var(--bg-color);
   font-family: sans-serif; /* フォントの指定はここで一回だけ */
   color: var(--text-color);
   line-height: 1.6; /* 行間を少し広げて読みやすく */
+  background-image: url(usedimages/IMG_8742.jpg); 
+  background-size: cover; /* 画面全体を覆うように表示 */
+  background-position: center; /* 中央を基準に表示 */
+  background-attachment: fixed; /* スクロールしても背景を固定 */
 }
+
 
 /* ================================== */
 /* レイアウト */
@@ -74,7 +81,8 @@ h1 {
   top: 20px;
   align-self: flex-start;
   padding-right: 20px;
-  
+  z-index: 1; /* コンテンツが背景に隠れないように */
+
 }
 
 .sidebar ul {
