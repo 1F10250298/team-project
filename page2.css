@@ -1,6 +1,10 @@
 body {
   margin: 0;
   background-color: hsla(94, 100%, 87%, 0.49);
+  position: relative;
+  height:100%;
+  background: url(usedimages/5higashi_01_R.jpg) center / cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -86,7 +90,7 @@ li {
 }
 
 .greenback {
-  background-color: rgba(157, 255, 157, 0.345);      
+  background-color: rgba(157, 255, 157);      
   border-left: solid 3px #008000; 
   margin: 10px 10px 20px 10px;  
   padding: 15px;                  
@@ -141,7 +145,7 @@ span.alert {
 }
 
 .blueback {
-  background-color: hsla(133, 73%, 84%, 0.49);      
+  background-color: hsla(133, 73%, 84%);      
   border-left: solid 3px #16A34A; 
   margin: 10px 10px 20px 10px;  
   padding: 15px;                  
