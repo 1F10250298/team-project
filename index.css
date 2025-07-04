@@ -93,7 +93,7 @@ li {
 
 
 .place {
-  background-color: rgb(152 251 152 / 0.8);
+  background-color: rgba(152, 251, 152, 0.9);
   margin: 10px 10px 20px 10px;  
   padding: 15px;                  
 }
