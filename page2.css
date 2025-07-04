@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  background-color: hsla(94, 100%, 87%, 0.49);
 }
 
 h1 {
   margin: 0;
+  margin-right: 5px;
   padding: 10px 0 10px 0;
   border-bottom: solid 4px #16A34A;
   font-family: sans-serif;
@@ -13,12 +15,6 @@ h1 {
   background-color: #4B5563;
 }
 
-h2 {
-  font-family: sans-serif;
-  font-size: 18px;
-  
-
-}
 
 h3 {
   font-family: sans-serif;
@@ -36,7 +32,6 @@ p {
 p#a {
   font-family: sans-serif;
   font-size: 12px;
-  background-color: #aae4ff;
 }
 
 li {
@@ -90,20 +85,12 @@ li {
   border-left-color: #F59E0B;
 }
 
-.blueback {
-  background-color: #eef9ff;      
-  border-left: solid 3px #ccd8ff; 
+.greenback {
+  background-color: rgba(157, 255, 157, 0.345);      
+  border-left: solid 3px #008000; 
   margin: 10px 10px 20px 10px;  
   padding: 15px;                  
 }
-
-.blueback h3 {
-  margin-top: 0; 
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: solid 3px #ccd8ff; 
-}
-
 
 .content {
   width: 70%;
@@ -117,7 +104,12 @@ li {
   color: #444444;
 }
 
-
+div.important {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: solid 2px #ffffff;
+  background-color: #ffffff;
+}
 
 .footer {
   border-top: solid 1px #cccccc;
@@ -125,13 +117,6 @@ li {
   font-size: 12px;
   text-align: center;
   background-color: #eeeeee;
-}
-
-div.important {
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  border: solid 2px #aad7ff;
-  background-color: #aae4ff;
 }
 
 span.alert {
@@ -154,6 +139,21 @@ span.alert {
   color: #ffffff;
   text-decoration: none;
 }
+
+.blueback {
+  background-color: hsla(133, 73%, 84%, 0.49);      
+  border-left: solid 3px #16A34A; 
+  margin: 10px 10px 20px 10px;  
+  padding: 15px;                  
+}
+
+.blueback h3 {
+  margin-top: 0; 
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: solid 3px #16A34A; 
+}
+
 .blueback img {
   width: 300px;
   height: 200px;
